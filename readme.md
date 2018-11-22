@@ -1,13 +1,11 @@
 # A notebook exemplifying Thompson Sampling 
 
-Thompson Sampling is an algorithm for learning to choose the best reward-carrying action from a set of such actions. For a mathematical delineation of the optimality characteristics of this algorithm, I recommend seeing [here](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf). There are many recent introductory posts on Medium on the topic, for example the following ones which greatly overlap:
-
-+ https://towardsdatascience.com/solving-multiarmed-bandits-a-comparison-of-epsilon-greedy-and-thompson-sampling-d97167ca9a50
-+ https://towardsdatascience.com/solving-multiarmed-bandits-a-comparison-of-epsilon-greedy-and-thompson-sampling-d97167ca9a50
-+ https://towardsdatascience.com/the-multi-armed-bandits-problem-bba9ea35a1e4
+Thompson Sampling is an algorithm for learning to choose the best reward-carrying action from a set of such actions. For a mathematical delineation of the optimality characteristics of this algorithm, I recommend seeing [here](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf). There are many introductory posts on Medium on the topic, for example the following ones which greatly overlap:
+([1](https://towardsdatascience.com/the-multi-armed-bandits-problem-bba9ea35a1e4
+), [2](https://towardsdatascience.com/solving-multiarmed-bandits-a-comparison-of-epsilon-greedy-and-thompson-sampling-d97167ca9a50), [3](https://towardsdatascience.com/solving-multiarmed-bandits-a-comparison-of-epsilon-greedy-and-thompson-sampling-d97167ca9a50)).
 
 ## Why this repo?
-This code should tentatively be more conducive to further experimentation of intriguing variants than [the equivalent code and article that inspired it](https://peterroelants.github.io/posts/multi-armed-bandit-implementation/). 
+This code should be tentatively more conducive to further experimentation of intriguing variants than [the equivalent code and article that inspired it](https://peterroelants.github.io/posts/multi-armed-bandit-implementation/). 
 
 ### Running on google colaboratory
 
