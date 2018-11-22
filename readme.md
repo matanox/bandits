@@ -1,6 +1,6 @@
 # A notebook exemplifying Thompson Sampling 
 
-Thompson Sampling is an algorithm for learning to choose the best reward-carrying action from a set of such actions. For a mathematical delineation of the optimality characteristics of this algorithm, I recommend seeing [here](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf). There are many introductory posts on Medium on the topic, for example the following ones which greatly overlap:
+Thompson Sampling is an algorithm for learning  the best reward-carrying action from a set of such actions to choose from, where the reward from each action is _a random variable_. For a mathematical delineation of the optimality characteristics of this algorithm, I recommend reading [here](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf). There are many introductory posts on Medium on the topic, for example the following ones which greatly overlap:
 ([1](https://towardsdatascience.com/the-multi-armed-bandits-problem-bba9ea35a1e4
 ), [2](https://towardsdatascience.com/solving-multiarmed-bandits-a-comparison-of-epsilon-greedy-and-thompson-sampling-d97167ca9a50), [3](https://towardsdatascience.com/solving-multiarmed-bandits-a-comparison-of-epsilon-greedy-and-thompson-sampling-d97167ca9a50)).
 
