@@ -5,7 +5,7 @@ Thompson Sampling is an algorithm for learning  the best reward-carrying action 
 ), [2](https://towardsdatascience.com/solving-multiarmed-bandits-a-comparison-of-epsilon-greedy-and-thompson-sampling-d97167ca9a50), [3](https://towardsdatascience.com/solving-multiarmed-bandits-a-comparison-of-epsilon-greedy-and-thompson-sampling-d97167ca9a50)).
 
 ## Why this repo?
-This code should be tentatively more conducive to further experimentation of intriguing variants than [the equivalent code and article that inspired it](https://peterroelants.github.io/posts/multi-armed-bandit-implementation/). 
+Comparing to [the equivalent code and article that inspired it](https://peterroelants.github.io/posts/multi-armed-bandit-implementation/), this code may tentatively be more conducive to further experimentation of intriguing variants.
 
 ### Running on google colaboratory
 
