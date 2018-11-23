@@ -26,4 +26,4 @@ You'd then activate the environment on your end in the usual way, [the syntax su
 
 Alternatively use the `requirements.txt` file for setting up directly with pip3.
 
-Or just install whatever packages that come up as import errors as my environment has many items unnecessary for this project.
+Or just install whatever packages that come up as import errors, as my environment has many items unnecessary for this project.
