@@ -20,10 +20,8 @@ conda env create --name mab -f environment.yml
 ```
 
 You may replace the name `mab` with any name you'd like to have for this virtual environment.
-Of course, this assumes you have Anaconda installed.
-
-You'd then activate the environment on your end in the usual way, [the syntax subtly varies depending on your OS](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
+Of course, this assumes you have Anaconda installed. You'd then activate the environment on your end in the usual way, [the syntax subtly varies depending on your OS](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
 
 Alternatively use the `requirements.txt` file for setting up directly with pip3.
 
-Or just install whatever packages that come up as import errors, as my environment has many items unnecessary for this project.
+Or, just install whatever packages that come up as import errors, as my environment has many items unnecessary for running this project.
