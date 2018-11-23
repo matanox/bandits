@@ -19,7 +19,7 @@ def interval_binner(df, datetime_column, aggregation_interval_minutes):
     return binned
 
 
-def google_colaboratory_runtime():
+def is_google_colaboratory_runtime():
     return get_ipython().__class__.__module__ == "google.colab._shell"
 
 def colaboratory_enable_plotly():
@@ -38,7 +38,7 @@ def colaboratory_enable_plotly():
         '''))
 
 def enable_for_google_colaboratory():
-    if google_colaboratory_runtime():
+    if is_google_colaboratory_runtime():
         colaboratory_enable_plotly()
 
 

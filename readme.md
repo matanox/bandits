@@ -13,7 +13,7 @@ This code should be tentatively more conducive to further experimentation of int
 
 ### Running locally 
 
-The notebook comes with outputs preloaded. But to run it locally, perhaps with different parameters or other enticing changes, you need to have its python dependencies available in your python environment. Using a custom virtual environment with Anaconda, I have exported the environment definition and you can pull it together after cloning this repo, e.g. via:
+To run it locally after cloning the repo, perhaps with different parameters or other enticing changes, you need to have its python dependencies available in your python environment. Using a custom virtual environment with Anaconda, I have exported the environment definition and you can pull it together after cloning this repo, e.g. via:
 
 ```
 conda env create --name mab -f environment.yml
@@ -23,3 +23,7 @@ You may replace the name `mab` with any name you'd like to have for this virtual
 Of course, this assumes you have Anaconda installed.
 
 You'd then activate the environment on your end in the usual way, [the syntax subtly varies depending on your OS](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
+
+Alternatively use the `requirements.txt` file for setting up directly with pip3.
+
+Or just install whatever packages that come up as import errors as my environment has many items unnecessary for this project.
